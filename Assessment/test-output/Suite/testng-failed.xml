@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testsign(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testcases.Signuppagetest">
+        <methods>
+          <include name="launchingBrowser"/>
+          <include name="afterMethod"/>
+          <include name="Tc_signupid"/>
+        </methods>
+      </class> <!-- testcases.Signuppagetest -->
+    </classes>
+  </test> <!-- Testsign(failed) -->
+</suite> <!-- Failed suite [Suite] -->
